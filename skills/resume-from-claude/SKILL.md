@@ -1,6 +1,6 @@
 ---
 name: resume-from-claude
-description: Import context from Claude CLI sessions for the current folder. Use when the user says `/resume-from-claude`, `/resume-from-codex`, asks to resume a Claude conversation here, or wants Codex to recover prior Claude session state from `~/.claude` and continue the work.
+description: Import context from Claude CLI sessions for the current folder. Use when the user says `/resume-from-claude`, `/kmf-claude`, asks to resume a Claude conversation here, or wants Codex to recover prior Claude session state from `~/.claude` and continue the work.
 ---
 
 # Resume From Claude
@@ -10,6 +10,7 @@ Use this skill to recover recent Claude CLI sessions for the current workspace, 
 ## When To Use
 
 - The user asks to resume or import a Claude conversation into Codex.
+- The user explicitly says `/kmf-claude` as the shortcut invocation.
 - The user gives a Claude session id and wants the current agent to continue it.
 - The user wants "the recent Claude chats for this folder" summarized first.
 

@@ -1,8 +1,10 @@
-Inspired by "Reborn" by Kid Cudi and Kanye West, this repo is about one thing: keep moving forward.
+> *As Kid Cudi and Kanye say on "Reborn": "keep movin' forward, keep movin' forward."*
 
 # kmf
 
-A small collection of persistence-oriented agent skills that help one agent recover context from another and continue the work without making the user restate everything.
+The work should not stop when your limits run out.
+
+This repo is about persistence: recovering context, resuming work, and carrying momentum across tools, sessions, and agents without making the user start over. The first skill starts with Claude session recovery, but the bigger idea is simple: the work never resets just because the agent changed.
 
 ## Install
 
