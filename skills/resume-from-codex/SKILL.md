@@ -1,11 +1,11 @@
 ---
 name: resume-from-codex
-description: Import context from Codex sessions for the current folder. Use when the user says `/resume-from-codex`, `/kmf-codex`, asks to resume a Codex conversation here, or wants Codex to recover prior Codex session state from `~/.codex` and continue the work.
+description: Resume a Codex session from Claude, Amp, Droid, OpenCode, and more. Use when the user says `/resume-from-codex`, `/kmf-codex`, asks to resume a Codex conversation here, or wants another agent to recover Codex session state from `~/.codex` and continue the work.
 ---
 
 # Resume From Codex
 
-Use this skill to recover recent Codex sessions for the current workspace, present a short candidate list, and then continue work from the selected session's recovered state.
+Use this skill to recover recent Codex sessions for the current workspace, present a short candidate list, and then continue work from the selected session's recovered state in the current agent.
 
 ## When To Use
 

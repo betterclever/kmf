@@ -4,7 +4,7 @@
 
 The work should not stop when your limits run out.
 
-This repo is about persistence: recovering context, resuming work, and carrying momentum across tools, sessions, and agents without making the user start over. The first skill starts with Claude session recovery, but the bigger idea is simple: the work never resets just because the agent changed.
+kmf helps the next agent continue the work instead of starting over.
 
 ## Install
 
@@ -21,8 +21,8 @@ npx skills add betterclever/kmf -l --full-depth
 
 ## Skills
 
-- `resume-from-claude` — recover Claude CLI sessions for the current folder, present a short candidate list, and build a resume brief Codex can continue from
-- `resume-from-codex` — recover Codex sessions for the current folder, present a short candidate list, and build a resume brief another Codex session can continue from
+- `resume-from-claude` — resume a Claude session from Codex, Amp, Droid, OpenCode, and more
+- `resume-from-codex` — resume a Codex session from Claude, Amp, Droid, OpenCode, and more
 
 ## Planned
 
