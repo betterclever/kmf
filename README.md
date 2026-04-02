@@ -10,6 +10,7 @@ This repo is about persistence: recovering context, resuming work, and carrying 
 
 ```bash
 npx skills add betterclever/kmf --skill resume-from-claude -y --full-depth
+npx skills add betterclever/kmf --skill resume-from-codex -y --full-depth
 ```
 
 To inspect available skills first:
@@ -21,10 +22,10 @@ npx skills add betterclever/kmf -l --full-depth
 ## Skills
 
 - `resume-from-claude` — recover Claude CLI sessions for the current folder, present a short candidate list, and build a resume brief Codex can continue from
+- `resume-from-codex` — recover Codex sessions for the current folder, present a short candidate list, and build a resume brief another Codex session can continue from
 
 ## Planned
 
-- `resume-from-codex`
 - `resume-from-droid`
 - `resume-from-xyz`
 
@@ -33,4 +34,5 @@ npx skills add betterclever/kmf -l --full-depth
 ```bash
 npx skills add betterclever/kmf -l --full-depth
 python3 skills/resume-from-claude/scripts/resume_from_claude.py list --cwd "$PWD" --limit 5 --json
+python3 skills/resume-from-codex/scripts/resume_from_codex.py list --cwd "$PWD" --limit 5 --json
 ```
