@@ -11,6 +11,7 @@ kmf helps the next agent continue the work instead of starting over.
 ```bash
 npx skills add betterclever/kmf --skill resume-from-claude -y --full-depth
 npx skills add betterclever/kmf --skill resume-from-codex -y --full-depth
+npx skills add betterclever/kmf --skill resume-from-opencode -y --full-depth
 ```
 
 To inspect available skills first:
@@ -21,8 +22,9 @@ npx skills add betterclever/kmf -l --full-depth
 
 ## Skills
 
-- `resume-from-claude` — resume a Claude session from Codex, Amp, Droid, OpenCode, and more
-- `resume-from-codex` — resume a Codex session from Claude, Amp, Droid, OpenCode, and more
+- `resume-from-claude` — resume a Claude session from Codex, Amp, OpenCode, and more
+- `resume-from-codex` — resume a Codex session from Claude, Amp, OpenCode, and more
+- `resume-from-opencode` — resume an OpenCode session from Codex, Claude, Amp, and more
 
 ## How it works
 
@@ -41,4 +43,5 @@ npx skills add betterclever/kmf -l --full-depth
 npx skills add betterclever/kmf -l --full-depth
 python3 skills/resume-from-claude/scripts/resume_from_claude.py list --cwd "$PWD" --limit 5 --json
 python3 skills/resume-from-codex/scripts/resume_from_codex.py list --cwd "$PWD" --limit 5 --json
+python3 skills/resume-from-opencode/scripts/resume_from_opencode.py list --cwd "$PWD" --limit 5 --json
 ```

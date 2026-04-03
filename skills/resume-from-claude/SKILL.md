@@ -1,6 +1,6 @@
 ---
 name: resume-from-claude
-description: Resume a Claude session from Codex, Amp, Droid, OpenCode, and more. Use when the user says `/resume-from-claude`, `/kmf-claude`, asks to resume a Claude conversation here, or wants another agent to recover Claude session state from `~/.claude` and continue the work.
+description: Resume a Claude session from Codex, Amp, OpenCode, and more. Use when the user says `/resume-from-claude`, `/kmf-claude`, asks to resume a Claude conversation here, or wants another agent to recover Claude session state from `~/.claude` and continue the work.
 ---
 
 # Resume From Claude

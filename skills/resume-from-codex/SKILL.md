@@ -1,6 +1,6 @@
 ---
 name: resume-from-codex
-description: Resume a Codex session from Claude, Amp, Droid, OpenCode, and more. Use when the user says `/resume-from-codex`, `/kmf-codex`, asks to resume a Codex conversation here, or wants another agent to recover Codex session state from `~/.codex` and continue the work.
+description: Resume a Codex session from Claude, Amp, OpenCode, and more. Use when the user says `/resume-from-codex`, `/kmf-codex`, asks to resume a Codex conversation here, or wants another agent to recover Codex session state from `~/.codex` and continue the work.
 ---
 
 # Resume From Codex
