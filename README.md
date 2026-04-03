@@ -24,6 +24,12 @@ npx skills add betterclever/kmf -l --full-depth
 - `resume-from-claude` — resume a Claude session from Codex, Amp, Droid, OpenCode, and more
 - `resume-from-codex` — resume a Codex session from Claude, Amp, Droid, OpenCode, and more
 
+## How it works
+
+1. kmf finds prior sessions for the current folder.
+2. It pulls the important context into a short resume brief.
+3. The next agent picks up the thread instead of making you start over.
+
 ## Planned
 
 - `resume-from-droid`
